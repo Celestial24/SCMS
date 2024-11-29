@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title{
+    font-size: 12px;
+}
+
+
+
+.table-Result{
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 12px;
+   
+}
+
+.table-registered{
+    background-color: #fff;
+    text-transform: capitalize;
+    width: 250%;
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    height: 15vh;
+    margin-bottom: 20px;
+    margin: 20px 0;
+    max-width: 80%;    
+    border-radius: 10px;
+
+}
+
+
+.btn-group{
+   display: flex;
+   gap: 10px;
+   position: fixed;
+   top: 32%;
+   right: 11%;
+
+}
+
+
+.btn-secondary1{
+    
+    
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-secondary1:hover{
+    text-decoration: underline;
+}
+
+.btn-secondary2:hover{
+    text-decoration: underline;
+}
+
+.btn-secondary2{
+    
+    
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}

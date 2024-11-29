@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.context-staff{
+    position: relative;
+    top: 100px;
+    left: 390px;
+    background-color: #fff;
+    max-width: 50%;
+
+}
+
+.context-staff h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #6480FF;
+    color: #fff;
+}
+
+ .input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.input-group input{
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+    border: none;
+}
+
+.btn-staff{
+    padding: 12px;
+    width: 100%;
+    background-color: #6480FF;
+
+    color: white;
+    cursor: pointer;
+}

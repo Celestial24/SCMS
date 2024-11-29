@@ -1,0 +1,189 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100%;
+  background: #e3f2fd;
+}
+
+/* Header */
+.header-content{
+   display: flex;
+    justify-content: center;
+    padding-left: 20px;
+ 
+}
+
+.header-lists{
+  
+  padding: 0;
+  position: absolute;
+  right: 10%;
+
+}
+
+.header-list{
+    display: inline-block;
+    
+    margin-bottom: 20px;
+
+    
+}
+
+.header-link{
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.header-link:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+/* Sidebar */
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #6480FF;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  margin: 0 24px;
+}
+.logo .menu-icon {
+  color: white;
+  font-size: 24px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.logo .logo-name {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.logo-name2{
+    text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.menu-icon2{
+  margin: 20px;
+
+  color: white;
+}
+
+
+.logo .logo-image{
+   position: absolute;
+   top: 80px;
+   left: 65px;
+   border-radius: 50%;
+   border: 5px solid white;
+   width: 40%;
+}
+
+
+
+nav .sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 260px;
+  padding: 20px 0;
+  background-color: #6480FF;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+   z-index: 1;
+}
+nav.open .sidebar {
+  left: 0;
+}
+.sidebar .sidebar-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 16px;
+}
+
+
+
+
+.content-Dashboard{
+    position: relative;
+    top: 90px;
+}
+
+
+
+
+
+
+.sidebar-content .list {
+  list-style: none;
+}
+.list .nav-link {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding: 14px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.lists .nav-link:hover {
+  background-color: #000;
+}
+.nav-link .icon {
+  margin-right: 14px;
+  font-size: 20px;
+  color: #fff;
+}
+.nav-link .link {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+.lists .nav-link:hover .icon,
+.lists .nav-link:hover .link {
+  color: blueviolet;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 1000vh;
+  width: 200%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s ease;
+  background: rgba(0, 0, 0, 0.3);
+}
+nav.open ~ .overlay {
+  opacity: 1;
+  left: 260px;
+  pointer-events: auto;
+}

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.context-container{
+    background-color: #fff;
+    height: 80vh; 
+    max-width: 50%;
+    position: relative;
+    top:100px;
+    left: 20%;
+    border-radius: 4px;
+}
+
+.context-container h1{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #6480FF;
+    color: white;
+}
+
+.context-container p{
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 12px;    
+}
+
+.list-medicine{
+    position: relative;
+    left: 26px;
+}
+
+.lists{
+    list-style: none;
+    margin: 10px;
+}
+.list{
+    margin: 10px;
+    font-size: 12px;
+}
+
+.p1{
+    text-align: center;
+}
+
+.medicine-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; 
+  text-align: left;
+  font-family: Arial, sans-serif; 
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.item {
+  padding: 3px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc; 
+  color: #000;
+  background-color: white; 
+  border-radius: 4px; 
+}
+   
+
+
+.image-para{
+     position: absolute;
+    top: 59px;
+    left: 50%; 
+
+}
+
+.image-para p {
+    text-align: center;
+}
+
+.image {
+     
+    width: 100%;
+
+}

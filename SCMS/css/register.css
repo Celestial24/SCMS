@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    width:60%;
+    height: 80%;
+    max-width: 1200px;
+     flex-direction: row-reverse;
+    margin: 0 auto;
+    border-radius: 35px;
+  
+}
+
+.right-container {
+    flex: 1;
+    background-color:#6480FF;
+    color: white;
+    padding: 40px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centering the text */
+    text-align: center; /* Centering the text */
+}
+
+.right-container h1 {
+    font-size: 2.5em;
+}
+
+.right-container p {
+    font-size: 1.2em;
+}
+
+
+
+.register-form {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+   
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+      background-color:#6480FF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.login{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   text-decoration: none;
+   color: black     ;
+}
+
+.register:hover{
+   color:black;
+   border-radius: 5px;
+}
+
+.logo{
+   width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.Write{
+    margin: 20px;
+}
+
+.Forget{
+    text-decoration: none;
+    color: black;
+}
+
+.Span{
+    text-transform: capitalize;
+
+}

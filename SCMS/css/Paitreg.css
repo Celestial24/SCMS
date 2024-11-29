@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.table-patient{
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    
+}
+
+.table-registered{
+    text-transform: capitalize;
+    width: 99%;
+    position: absolute;
+    top: 95%;
+    height: 15vh;
+    margin-bottom: 20px;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.btn-group{
+   display: flex;
+   gap: 10px;
+   position: fixed;
+   top: 35%;
+   right: 20px;
+}
+
+
+.btn-secondary1{
+    
+    
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-secondary1:hover{
+    text-decoration: underline;
+}
+
+.btn-secondary2:hover{
+    text-decoration: underline;
+}
+
+.btn-secondary2{
+    
+    
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}

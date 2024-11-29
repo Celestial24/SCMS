@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.forms {
+    position: relative;
+    top: 60px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    
+    background-color: #6480FF;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+
+}
+
+/* patient */
+.inputs-patient{
+    margin: 10px;
+    
+}
+
+.inputs-patient input{
+    width: 40%;
+    margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.input-groups1 input{
+    width: 45%;
+}
+
+
+.inputs-patient label{
+    font-size: 12px;
+}
+
+/* Date information  */
+
+.Date-Information{
+    position: absolute;
+    top: 50px;
+    left: 60%;
+   
+}
+
+
+.Date-Information label{
+    text-align: right; 
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.Date-Information input{
+    width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+
+.information{
+   position: relative;
+  left: 12px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 4fr; /* Two equal columns */
+  gap: 10px;
+  font-size: 12px;
+} 
+
+.information input{
+    width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.information .input-groups1 input{
+    width: 20%;
+}
+
+.ph1{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.em-container{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+  align-items: center;
+  font-size: 12px;
+}
+
+.em-container input{
+    width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.btn-Consult{
+    background-color:#6480FF;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.btn-Consult:hover{
+    text-decoration: underline;
+}
